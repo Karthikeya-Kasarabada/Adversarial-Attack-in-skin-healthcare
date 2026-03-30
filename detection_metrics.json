@@ -1,0 +1,22 @@
+{
+  "LID": {
+    "AUC": 1.0,
+    "TPR": 1.0,
+    "FPR": 0.9375
+  },
+  "Mahalanobis": {
+    "AUC": 1.0,
+    "TPR": 1.0,
+    "FPR": 0.875
+  },
+  "Autoencoder": {
+    "AUC": 0.0,
+    "TPR": 0.0,
+    "FPR": 0.875
+  },
+  "Ensemble": {
+    "AUC": 1.0,
+    "TPR": 1.0,
+    "FPR": 0.9375
+  }
+}

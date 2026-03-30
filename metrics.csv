@@ -1,0 +1,8 @@
+Method,Clean Acc,Adv Acc (FGSM),Adv Acc (PGD),Adv Acc (CW),Detection AUC,FPR,Notes
+Baseline (ResNet-18),0.9375,0.875,0.0,0.1875,-,-,No defense
+Detect: LID,-,-,-,-,1.0,0.9375,TPR=1.0
+Detect: Mahalanobis,-,-,-,-,1.0,0.875,TPR=1.0
+Detect: Autoencoder,-,-,-,-,0.0,0.875,TPR=0.0
+Detect: Ensemble,-,-,-,-,1.0,0.9375,TPR=1.0
+Defense: Adv-Trained,1.0,1.0,0.0,1.0,-,-,Adv-Trained
+Defense: AE-Denoising,0.75,0.25,0.25,0.4375,-,-,AE-Denoising

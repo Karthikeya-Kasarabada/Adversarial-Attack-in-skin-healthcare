@@ -1,0 +1,5 @@
+{
+  "clean_accuracy": 0.9375,
+  "weighted_f1": 0.9677,
+  "classification_report": "              precision    recall  f1-score   support\n\n       akiec       0.00      0.00      0.00         0\n         bcc       0.00      0.00      0.00         0\n         bkl       0.00      0.00      0.00         0\n          df       0.00      0.00      0.00         0\n         mel       0.00      0.00      0.00         0\n          nv       1.00      0.94      0.97        16\n        vasc       0.00      0.00      0.00         0\n\n    accuracy                           0.94        16\n   macro avg       0.14      0.13      0.14        16\nweighted avg       1.00      0.94      0.97        16\n"
+}

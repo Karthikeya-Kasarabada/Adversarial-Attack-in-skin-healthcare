@@ -1,0 +1,20 @@
+{
+  "Baseline": {
+    "clean_acc": 0.9375,
+    "fgsm_acc": 0.875,
+    "pgd_acc": 0.0,
+    "cw_acc": 0.1875
+  },
+  "Adv-Trained": {
+    "clean_acc": 1.0,
+    "fgsm_acc": 1.0,
+    "pgd_acc": 0.0,
+    "cw_acc": 1.0
+  },
+  "AE-Denoising": {
+    "clean_acc": 0.75,
+    "fgsm_acc": 0.25,
+    "pgd_acc": 0.25,
+    "cw_acc": 0.4375
+  }
+}

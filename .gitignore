@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Large Datasets
+data/raw/HAM10000_images_part_1/
+data/raw/HAM10000_images_part_2/
+data/raw/hmnist_*.csv
+
+# We explicitly WANT data/raw/HAM10000_metadata.csv for Streamlit deployment
+!data/raw/HAM10000_metadata.csv
+
+# Adversarial large tensors (but we might want the .png plots, so we only ignore .pt)
+adv_images/**/*.pt
+
+# Large Models (If models are >100MB, GitHub blocks them without Git LFS. ResNet18 is ~45MB, so they are OK to include)
+# models/*.pth  <-- Commented out, so we push them to Streamlit Cloud!

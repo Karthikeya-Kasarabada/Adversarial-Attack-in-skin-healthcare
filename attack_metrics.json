@@ -1,0 +1,26 @@
+{
+  "fgsm": {
+    "attack": "fgsm",
+    "n_samples": 16,
+    "asr": 0.125,
+    "linf_mean": 1.719356,
+    "ssim": 0.8476,
+    "elapsed_sec": 1.0
+  },
+  "pgd": {
+    "attack": "pgd",
+    "n_samples": 16,
+    "asr": 1.0,
+    "linf_mean": 1.719356,
+    "ssim": 0.8535,
+    "elapsed_sec": 39.2
+  },
+  "cw": {
+    "attack": "cw",
+    "n_samples": 16,
+    "asr": 0.8125,
+    "linf_mean": 1.397658,
+    "ssim": 0.8826,
+    "elapsed_sec": 55.6
+  }
+}
