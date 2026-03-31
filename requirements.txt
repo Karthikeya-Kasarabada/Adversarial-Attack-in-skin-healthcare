@@ -1,8 +1,7 @@
---extra-index-url https://download.pytorch.org/whl/cpu
 torch
 torchvision
 torchattacks>=3.4.0
-numpy>=1.24.0
+numpy>=1.24.0,<2.0.0
 pandas>=2.0.0
 scikit-learn>=1.3.0
 matplotlib>=3.7.0
